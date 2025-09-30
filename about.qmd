@@ -6,8 +6,43 @@ about:
   links:
     - icon: github
       text: Github
-      href: https://github.com/etc5523-2022
+      href: https://github.com/Hafsa0005
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/hafsaaltaf12/
 
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+Hello! I'm Hafsa Altaf, a dedicated digital marketing professional. I have always been fascinated by how data can be leveraged to uncover insights, drive strategies, and make impactful decisions. My passion lies at the intersection of business, data analytics, and marketing, where I aim to bridge the gap between numbers and meaningful storytelling.  
+
+I am currently pursuing a Master’s in Business Analytics at Monash University, Australia. Through this program, I am enhancing my expertise in Python, SQL, statistical modeling, data visualization, and business intelligence tools. I enjoy exploring ways to transform complex datasets into actionable insights that can guide analytics strategies, optimize operations, and support policy decisions.  
+
+With experience in digital marketing, including social media campaigns, SEO, and content strategy, I have developed a strong understanding of how analytics can be applied in real-world business contexts. I thrive in collaborative environments, working alongside diverse teams to solve challenging problems and share knowledge.  
+
+Beyond academics and professional interests, I am passionate about continuous learning and keeping up with emerging technologies in the fields of data and analytics. I also enjoy exploring new cultures, traveling, and expanding my horizons both personally and professionally.  
+
+Feel free to connect with me on LinkedIn, explore my projects on GitHub, or reach out to discuss potential collaborations or professional opportunities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
