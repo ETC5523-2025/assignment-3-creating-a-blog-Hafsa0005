@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "posts/welcome/hai-germany-blog.html",
+    "href": "posts/welcome/hai-germany-blog.html",
+    "title": "High Burden of Healthcare-Associated Infections in Germany: A Comprehensive Analysis",
+    "section": "",
+    "text": "Healthcare-associated infections (HAIs) represent a significant challenge to modern healthcare systems worldwide. While traditional metrics like prevalence rates provide some insight, they often fail to capture the full public health impact of these infections. This analysis addresses the critical gap in understanding the true burden of HAIs by employing comprehensive metrics that account for both mortality and disability.\nThe fundamental question driving this research is: To what extent does Germany’s burden of healthcare-associated infections, expressed in Disability-Adjusted Life Years (DALYs), differ from the European Union average?"
+  },
+  {
+    "objectID": "posts/welcome/hai-germany-blog.html#problem-description",
+    "href": "posts/welcome/hai-germany-blog.html#problem-description",
+    "title": "High Burden of Healthcare-Associated Infections in Germany: A Comprehensive Analysis",
+    "section": "",
+    "text": "Healthcare-associated infections (HAIs) represent a significant challenge to modern healthcare systems worldwide. While traditional metrics like prevalence rates provide some insight, they often fail to capture the full public health impact of these infections. This analysis addresses the critical gap in understanding the true burden of HAIs by employing comprehensive metrics that account for both mortality and disability.\nThe fundamental question driving this research is: To what extent does Germany’s burden of healthcare-associated infections, expressed in Disability-Adjusted Life Years (DALYs), differ from the European Union average?"
+  },
+  {
+    "objectID": "posts/welcome/hai-germany-blog.html#data-description",
+    "href": "posts/welcome/hai-germany-blog.html#data-description",
+    "title": "High Burden of Healthcare-Associated Infections in Germany: A Comprehensive Analysis",
+    "section": "Data Description",
+    "text": "Data Description\n\nData Sources\nThe analysis utilized two primary data sources:\n\nGerman Point Prevalence Survey (2011): National data on HAIs in acute-care hospitals\nECDC Point Prevalence Survey (2011-2012): European Union/European Economic Area data for comparative analysis\n\n\n\nKey Variables\nThe study focused on five major types of healthcare-associated infections:\n\nClostridioides Difficile Infection (CDI)\nHealthcare-associated Pneumonia (HAP)\nHealthcare-associated Primary Bloodstream Infection (BSI)\nHealthcare-associated Urinary Tract Infection (UTI)\nSurgical Site Infection (SSI)\n\n\n\nData Processing\nThe study employed an innovative methodology, using a custom R package BHAI (Burden of Healthcare-Associated Infections) to estimate the burden of five major HAIs in Germany by calculating incidence, attributable deaths and Disability Adjusted Life Years (DALYs).\n\nData Loading and Validation: Imported raw point prevalence survey data from the 2011 German national survey and conducted initial quality checks to identify missing values, inconsistencies, or formatting issues.\nInfection Type Categorization: Classified healthcare-associated infections into five specific categories - Clostridioides Difficile Infection (CDI), Healthcare-associated Pneumonia (HAP), Primary Bloodstream Infection (BSI), Urinary Tract Infection (UTI), and Surgical Site Infection (SSI), ensuring consistent classification across all records.\nPrevalence-to-Incidence Conversion: Applied statistical methods to transform point prevalence data (infections present at a specific time) into annual incidence estimates (new infections occurring over one year), accounting for variations in infection duration and patient turnover.\nBurden Metric Calculation: Computed three key burden indicators - total cases, attributable deaths, and Disability-Adjusted Life Years (DALYs), by integrating incidence data with disability weights, mortality rates, and population demographics.\nUncertainty Estimation and Standardization: Generated 95% uncertainty intervals using statistical modeling to account for measurement variability and standardized results per 100,000 population to enable meaningful comparisons between Germany and EU/EEA countries."
+  },
+  {
+    "objectID": "posts/welcome/hai-germany-blog.html#analysis",
+    "href": "posts/welcome/hai-germany-blog.html#analysis",
+    "title": "High Burden of Healthcare-Associated Infections in Germany: A Comprehensive Analysis",
+    "section": "Analysis",
+    "text": "Analysis\n\nComparative Burden Analysis\nThe key results are presented in Table Table 1, which compares the HAIs burden in Germany with that of other European countries.\n\n\n\n\nTable 1: Comparison of HAI Burden, Germany vs EU/EEA (2011–2012)\n\n\n\n\n\n\n\n\n\n\n\nMetric (95% UI)\nGermany 2011\nEU/EEA Average (2011-12)\n\n\n\n\nEstimated HAI cases\n478,222 (421k–538k)\n2,365,466\n\n\nAttributable deaths\n16,245 (10.9k–22.8k)\n77,483\n\n\nDALYs\n248,920 (179k–336k)\n1,465,822\n\n\nDALYs per 100,000 population\n308.2 (221–416)\n290.0 (215–377)\n\n\n\n\n\n\n\n\nAs shown in Table 1, Germany’s burden of 308.2 DALYs per 100,000 population exceeds the EU/EEA average of 290.0 DALYs per 100,000 population, despite Germany having lower hospital prevalence rates."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Hello! I’m Hafsa Altaf, a dedicated digital marketing professional. I have always been fascinated by how data can be leveraged to uncover insights, drive strategies, and make impactful decisions. My passion lies at the intersection of business, data analytics, and marketing, where I aim to bridge the gap between numbers and meaningful storytelling.\nI am currently pursuing a Master’s in Business Analytics at Monash University, Australia. Through this program, I am enhancing my expertise in Python, SQL, statistical modeling, data visualization, and business intelligence tools. I enjoy exploring ways to transform complex datasets into actionable insights that can guide analytics strategies, optimize operations, and support policy decisions.\nWith experience in digital marketing, including social media campaigns, SEO, and content strategy, I have developed a strong understanding of how analytics can be applied in real-world business contexts. I thrive in collaborative environments, working alongside diverse teams to solve challenging problems and share knowledge.\nBeyond academics and professional interests, I am passionate about continuous learning and keeping up with emerging technologies in the fields of data and analytics. I also enjoy exploring new cultures, traveling, and expanding my horizons both personally and professionally.\nFeel free to connect with me on LinkedIn, explore my projects on GitHub, or reach out to discuss potential collaborations or professional opportunities."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ETC5523 Blog Assessment",
+    "section": "",
+    "text": "High Burden of Healthcare-Associated Infections in Germany: A Comprehensive Analysis\n\n\n\n\n\n\nHealthcare\n\n\nData Analysis\n\n\n\n\n\n\n\n\n\nOct 1, 2025\n\n\nHafsa Altaf\n\n\n\n\n\n\nNo matching items"
+  }
+]

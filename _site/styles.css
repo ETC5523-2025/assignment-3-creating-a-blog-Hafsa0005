@@ -1,0 +1,20 @@
+/* css styles */
+
+
+/* Body styling */
+body {
+  background-color: #f9fafb;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar and banner styling */
+.navbar-dark, .quarto-title-banner {
+  background-color: #006DAE;
+  color: #ffffff;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #0077b6;
+}

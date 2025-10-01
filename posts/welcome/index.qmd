@@ -1,12 +1,56 @@
 ---
-title: "Welcome To My Blog Template"
-author: "Emi Tanaka"
-date: "2022-07-18"
-categories: [news]
+title: "High Burden of Healthcare-Associated Infections in Germany: A Comprehensive Analysis"
+author: "Hafsa Altaf"
+date: "2025-10-01"
+categories: [Healthcare, Data Analysis]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+## Problem Description
+
+Healthcare-associated infections (HAIs) represent a significant challenge to modern healthcare systems worldwide. While traditional metrics like prevalence rates provide some insight, they often fail to capture the full public health impact of these infections. This analysis addresses the critical gap in understanding the true burden of HAIs by employing comprehensive metrics that account for both mortality and disability.
+
+The fundamental question driving this research is: **To what extent does Germany’s burden of healthcare-associated infections, expressed in Disability-Adjusted Life Years (DALYs), differ from the European Union average?**
+
 
 ![](thumbnail.jpg)
+
+
+## Data Description
+
+### Data Sources
+
+The analysis utilized two primary data sources:
+
+1. **German Point Prevalence Survey (2011)**: National data on HAIs in acute-care hospitals
+2. **ECDC Point Prevalence Survey (2011-2012)**: European Union/European Economic Area data for comparative analysis
+
+
+### Key Variables
+
+The study focused on five major types of healthcare-associated infections:
+
+- Clostridioides Difficile Infection (CDI)
+- Healthcare-associated Pneumonia (HAP)
+- Healthcare-associated Primary Bloodstream Infection (BSI)
+- Healthcare-associated Urinary Tract Infection (UTI)
+- Surgical Site Infection (SSI)
+
+### Data Processing
+
+The study employed an innovative methodology, using a custom R package BHAI (Burden of Healthcare-Associated Infections) to estimate the burden of five major HAIs in Germany by calculating incidence, attributable deaths and Disability Adjusted Life Years (DALYs).
+
+1. Data Loading and Validation: Imported raw point prevalence survey data from the 2011 German national survey and conducted initial quality checks to identify missing values, inconsistencies, or formatting issues.
+
+2. Infection Type Categorization: Classified healthcare-associated infections into five specific categories - Clostridioides Difficile Infection (CDI), Healthcare-associated Pneumonia (HAP), Primary Bloodstream Infection (BSI), Urinary Tract Infection (UTI), and Surgical Site Infection (SSI), ensuring consistent classification across all records.
+
+3. Prevalence-to-Incidence Conversion: Applied statistical methods to transform point prevalence data (infections present at a specific time) into annual incidence estimates (new infections occurring over one year), accounting for variations in infection duration and patient turnover.
+
+4. Burden Metric Calculation: Computed three key burden indicators - total cases, attributable deaths, and Disability-Adjusted Life Years (DALYs), by integrating incidence data with disability weights, mortality rates, and population demographics.
+
+5. Uncertainty Estimation and Standardization: Generated 95% uncertainty intervals using statistical modeling to account for measurement variability and standardized results per 100,000 population to enable meaningful comparisons between Germany and EU/EEA countries.
+
+
+
+
 
 
