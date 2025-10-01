@@ -121,6 +121,7 @@ Figure @fig-hai shows the relationship between HAI cases and attributable deaths
 - CDI has the lowest number of deaths despite substantial case numbers.
 
 
+
 ## Conclusion
 
 When assessed using the comprehensive measure of Disability-Adjusted Life Years (DALYs), Germany’s burden of healthcare-associated infections differs substantially from the European Union average, in fact, it is significantly higher. This disparity reveals that low hospital-level prevalence does not always equate to a reduced population-level impact. Instead, broader factors such as hospitalization rates, healthcare utilization patterns, and system structure strongly shape the overall burden.
@@ -128,7 +129,6 @@ When assessed using the comprehensive measure of Disability-Adjusted Life Years 
 The findings of Zacher et al. (2019) emphasize that effectively addressing this gap requires a dual strategy: sustaining robust infection prevention and control practices within hospitals, while simultaneously implementing system-wide interventions. Strategies such as minimizing avoidable hospital admissions and optimizing bed usage could substantially reduce Germany’s overall disease burden.
 
 Additionally, the development of the BHAI R package marks a significant step forward in quantifying and comparing healthcare-associated infection burdens. Its application enables more transparent, reproducible assessments, and future research should leverage this methodology with updated data to examine the cost-effectiveness of targeted interventions aimed at narrowing the gap between Germany and the EU average.
-
 
 ## Reference
 
