@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Hafsa Altaf">
-<meta name="dcterms.date" content="2025-10-01">
+<meta name="dcterms.date" content="2025-10-06">
 
 <title>High Burden of Healthcare-Associated Infections in Germany: A Comprehensive Analysis – Hafsa Altaf: Data Insights &amp; Analytics</title>
 <style>
@@ -131,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">October 1, 2025</p>
+        <p class="date">October 6, 2025</p>
       </div>
     </div>
     
@@ -156,8 +156,8 @@ ul.task-list li input[type="checkbox"] {
 <p>The fundamental question driving this research is: <strong>To what extent does Germany’s burden of healthcare-associated infections, expressed in Disability-Adjusted Life Years (DALYs), differ from the European Union average?</strong></p>
 <p><img src="thumbnail.jpg" class="img-fluid"></p>
 </section>
-<section id="data-description" class="level2">
-<h2 class="anchored" data-anchor-id="data-description">Data Description</h2>
+<section id="analysis" class="level2">
+<h2 class="anchored" data-anchor-id="analysis">Analysis</h2>
 <section id="data-sources" class="level3">
 <h3 class="anchored" data-anchor-id="data-sources">Data Sources</h3>
 <p>The analysis utilized two primary data sources:</p>
@@ -188,12 +188,9 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Uncertainty Estimation and Standardization: Generated 95% uncertainty intervals using statistical modeling to account for measurement variability and standardized results per 100,000 population to enable meaningful comparisons between Germany and EU/EEA countries.</p></li>
 </ol>
 </section>
-</section>
-<section id="analysis" class="level2">
-<h2 class="anchored" data-anchor-id="analysis">Analysis</h2>
 <section id="comparative-burden-analysis" class="level3">
 <h3 class="anchored" data-anchor-id="comparative-burden-analysis">Comparative Burden Analysis</h3>
-<p>The key results are presented in Table <a href="#tbl-hai" class="quarto-xref">Table&nbsp;1</a>, which compares the HAIs burden in Germany with that of other European countries.</p>
+<p>The key results are presented in Table <a href="#tbl-hai" class="quarto-xref">Table&nbsp;1</a>, which compares the HAIs burden in Germany with that of other European countries:</p>
 <div class="cell">
 <div id="tbl-hai" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
@@ -243,10 +240,41 @@ Table&nbsp;1: Comparison of HAI Burden, Germany vs EU/EEA (2011–2012)
 </figure>
 </div>
 </div>
-<p>As shown in <a href="#tbl-hai" class="quarto-xref">Table&nbsp;1</a>, Germany’s burden of 308.2 DALYs per 100,000 population exceeds the EU/EEA average of 290.0 DALYs per 100,000 population, despite Germany having lower hospital prevalence rates.</p>
-
-
+<p><strong>Estimated HAIs cases</strong> indicate the number of new healthcare-associated infections occurring in one year. <strong>Attributable deaths</strong> represents the number of deaths directly caused by HAIs. <strong>DALYs (Disability-Adjusted Life Years)</strong> provide a comprehensive measure that combines years of life lost due to premature death with years lived in disability or illness. <strong>DALYs per 100,000 population</strong> adjust DALYs for population size, enabling fair comparisons between countries with different population size.</p>
+<p>The key results are presented in Table <a href="#tbl-hai" class="quarto-xref">Table&nbsp;1</a> reflects that although Germany reported a lower hospital prevalence of HAIs compared to the EU/EEF average, its per capita burden was higher. Germany’s burden was estimated at 308.2 DALYs per 100,000 population with nearly half a million estimated cases and over 16,000 attributable deaths, exceeding the EU/EEF average of 290.0 DALYs per 100,000 population. This highlights that Germany’s healthcare system faces a comparatively greater per-capita impact from HAIs.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-hai" class="quarto-float quarto-figure quarto-figure-center anchored" width="672">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hai-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-hai-1.png" id="fig-hai" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-hai-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Figure <a href="#fig-hai" class="quarto-xref">Figure&nbsp;1</a> shows the relationship between HAI cases and attributable deaths, where we can see:</p>
+<ul>
+<li><p>UTIs have the highest number of cases.</p></li>
+<li><p>HAP and UTI account for the highest number of deaths.</p></li>
+<li><p>CDI has the lowest number of deaths despite substantial case numbers.</p></li>
+</ul>
 </section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>When assessed using the comprehensive measure of Disability-Adjusted Life Years (DALYs), Germany’s burden of healthcare-associated infections differs substantially from the European Union average, in fact, it is significantly higher. This disparity reveals that low hospital-level prevalence does not always equate to a reduced population-level impact. Instead, broader factors such as hospitalization rates, healthcare utilization patterns, and system structure strongly shape the overall burden.</p>
+<p>The findings of Zacher et al.&nbsp;(2019) emphasize that effectively addressing this gap requires a dual strategy: sustaining robust infection prevention and control practices within hospitals, while simultaneously implementing system-wide interventions. Strategies such as minimizing avoidable hospital admissions and optimizing bed usage could substantially reduce Germany’s overall disease burden.</p>
+<p>Additionally, the development of the BHAI R package marks a significant step forward in quantifying and comparing healthcare-associated infection burdens. Its application enables more transparent, reproducible assessments, and future research should leverage this methodology with updated data to examine the cost-effectiveness of targeted interventions aimed at narrowing the gap between Germany and the EU average.</p>
+</section>
+<section id="reference" class="level2">
+<h2 class="anchored" data-anchor-id="reference">Reference</h2>
+<p>Zacher, B., Haller, S., Willrich, N., Walter, J., Abu Sin, M., Cassini, A., Plachouras, D., Suetens, C., Behnke, M., Gastmeier, P., Wieler, L. H., &amp; Eckmanns, T. (2019). Application of a new methodology and R package reveals a high burden of healthcare-associated infections (HAI) in Germany compared to the average in the European Union/European Economic Area, 2011 to 2012. Eurosurveillance, 24(46), 1900135. <a href="https://doi.org/10.2807/1560-7917.ES.2019.24.46.1900135">Web Link</a></p>
+
+
 </section>
 
 </main> <!-- /main -->
