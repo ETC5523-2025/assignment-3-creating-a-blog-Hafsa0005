@@ -1,8 +1,11 @@
 ---
 title: "High Burden of Healthcare-Associated Infections in Germany: A Comprehensive Analysis"
 author: "Hafsa Altaf"
-date: "2025-10-01"
+date: "2025-10-06"
 categories: [Healthcare, Data Analysis]
+execute:
+  freeze: false
+  cache: false
 ---
 
 ## Problem Description
@@ -15,7 +18,7 @@ The fundamental question driving this research is: **To what extent does Germany
 ![](thumbnail.jpg)
 
 
-## Data Description
+## Analysis
 
 ### Data Sources
 
@@ -23,7 +26,6 @@ The analysis utilized two primary data sources:
 
 1. **German Point Prevalence Survey (2011)**: National data on HAIs in acute-care hospitals
 2. **ECDC Point Prevalence Survey (2011-2012)**: European Union/European Economic Area data for comparative analysis
-
 
 ### Key Variables
 
@@ -49,12 +51,9 @@ The study employed an innovative methodology, using a custom R package BHAI (Bur
 
 5. Uncertainty Estimation and Standardization: Generated 95% uncertainty intervals using statistical modeling to account for measurement variability and standardized results per 100,000 population to enable meaningful comparisons between Germany and EU/EEA countries.
 
-
-## Analysis
-
 ### Comparative Burden Analysis
 
-The key results are presented in Table @tbl-hai, which compares the HAIs burden in Germany with that of other European countries.
+The key results are presented in Table @tbl-hai, which compares the HAIs burden in Germany with that of other European countries:
 
 ```{r}
 #| echo: false
@@ -77,11 +76,10 @@ kable(
 
 **Estimated HAIs cases** indicate the number of new healthcare-associated infections occurring in one year. **Attributable deaths** represents the number of deaths directly caused by HAIs. **DALYs (Disability-Adjusted Life Years)** provide a comprehensive measure that combines years of life lost due to premature death with years lived in disability or illness. **DALYs per 100,000 population** adjust DALYs for population size, enabling fair comparisons between countries with different population size. 
 
-The key results are presented in Table @tbl-hai  reflects that although Germany reported a lower hospital prevalence of HAIs compared to the EU/EEF average, its per capita burden was higher. Germany's burden was estimated at 308.2 DALYs per 100,000 population, exceeding the EU/EEF average of 290.0 DALYs per 100,000 population.
+The key results are presented in Table @tbl-hai  reflects that although Germany reported a lower hospital prevalence of HAIs compared to the EU/EEF average, its per capita burden was higher. Germany's burden was estimated at 308.2 DALYs per 100,000 population with nearly half a million estimated cases and over 16,000 attributable deaths, exceeding the EU/EEF average of 290.0 DALYs per 100,000 population. This highlights that Germany’s healthcare system faces a comparatively greater per-capita impact from HAIs.
 
 
 ```{r}
-
 #| echo: false
 #| label: fig-hai
 
@@ -120,8 +118,6 @@ Figure @fig-hai shows the relationship between HAI cases and attributable deaths
 
 - CDI has the lowest number of deaths despite substantial case numbers.
 
-
-
 ## Conclusion
 
 When assessed using the comprehensive measure of Disability-Adjusted Life Years (DALYs), Germany’s burden of healthcare-associated infections differs substantially from the European Union average, in fact, it is significantly higher. This disparity reveals that low hospital-level prevalence does not always equate to a reduced population-level impact. Instead, broader factors such as hospitalization rates, healthcare utilization patterns, and system structure strongly shape the overall burden.
@@ -134,9 +130,6 @@ Additionally, the development of the BHAI R package marks a significant step for
 
 Zacher, B., Haller, S., Willrich, N., Walter, J., Abu Sin, M., Cassini, A., Plachouras, D., Suetens, C., Behnke, M., Gastmeier, P., Wieler, L. H., & Eckmanns, T. (2019). Application of a new methodology and R package reveals a high burden of healthcare-associated infections (HAI) in Germany compared to the average in the European Union/European Economic Area, 2011 to 2012. Eurosurveillance, 24(46), 1900135. 
 [Web Link](https://doi.org/10.2807/1560-7917.ES.2019.24.46.1900135)
-
-
-
 
 
 
